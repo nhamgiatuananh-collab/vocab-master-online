@@ -68,27 +68,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 4. GSAP ScrollTrigger Animations (Auto-applied via MutationObserver for dynamically loaded content)
     // We observe the body for newly added cards and apply ScrollTrigger to them.
+        // 4. Native Intersection Observer for fade-up animations (Replaces buggy GSAP ScrollTrigger in nested SPAs)
+    const cardObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '50px' });
+
     const animateCards = (cards) => {
         cards.forEach(card => {
             // Check if already animated to prevent duplicate triggers
             if(card.dataset.gsapAnimated) return;
             card.dataset.gsapAnimated = "true";
 
-            gsap.fromTo(card, 
-                { y: 50, opacity: 0 },
-                { 
-                    y: 0, 
-                    opacity: 1, 
-                    duration: 0.6, 
-                    ease: "power3.out",
-                    scrollTrigger: {
-                        trigger: card,
-                        scroller: card.closest('.workspace-content') || card.closest('.modal') || window,
-                        start: "top 95%",
-                        toggleActions: "play none none reverse"
-                    }
-                }
-            );
+            // Fallback to Native IntersectionObserver for 100% reliability in nested scrolling containers
+            card.classList.add('gsap-ready');
+            cardObserver.observe(card);
         });
     };
 
@@ -125,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => ScrollTrigger.refresh(), 500);
     });
 });
+
 
 
 
