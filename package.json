@@ -1,0 +1,24 @@
+{
+  "name": "vocab-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/mcp": "^0.0.79",
+    "@supabase/mcp-server-supabase": "^0.11.0",
+    "@supabase/supabase-js": "^2.112.4",
+    "docx": "^9.7.1",
+    "mammoth": "^1.12.1",
+    "pdfjs-dist": "^6.2.108",
+    "playwright": "^1.63.0-alpha-2026-08-05",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
