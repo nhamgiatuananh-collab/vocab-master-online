@@ -2,8 +2,8 @@
 vocab-master-pro
 .agents
 supabase
-*.js
-!js/
+/*.js
+!/js/
 !mcp_config.json
 !package.json
 !package-lock.json
