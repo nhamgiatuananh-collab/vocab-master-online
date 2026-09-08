@@ -2783,3 +2783,17 @@ a, button, input, textarea, select, .word-card, .workspace-card, .search-result-
     opacity: 0;
 }
 
+
+/* FIX SELECT DROPDOWN NATIVE STYLE IN DARK MODE */
+select {
+    color-scheme: dark;
+}
+[data-theme="light"] select {
+    color-scheme: light;
+}
+
+select option {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    padding: 10px;
+}
