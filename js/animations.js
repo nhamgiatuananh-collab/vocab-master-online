@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     ease: "power3.out",
                     scrollTrigger: {
                         trigger: card,
+                        scroller: card.closest('.workspace-content') || card.closest('.modal') || window,
                         start: "top 95%",
                         toggleActions: "play none none reverse"
                     }
@@ -124,5 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => ScrollTrigger.refresh(), 500);
     });
 });
+
 
 
