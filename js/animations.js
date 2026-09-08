@@ -1,4 +1,4 @@
-// PHASE 3: WOW FACTOR
+﻿// PHASE 3: WOW FACTOR
 // Handles Lenis Smooth Scrolling, Custom Cursor, and GSAP ScrollTrigger Animations
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const cursor = document.getElementById('customCursor');
     if (cursor) {
         // Use GSAP quickTo for ultra-smooth performance
-        const xTo = gsap.quickTo(cursor, "x", {duration: 0.2, ease: "power3"});
-        const yTo = gsap.quickTo(cursor, "y", {duration: 0.2, ease: "power3"});
+        const xTo = gsap.quickTo(cursor, "x", {duration: 0.05, ease: "power1.out"});
+        const yTo = gsap.quickTo(cursor, "y", {duration: 0.05, ease: "power1.out"});
 
         window.addEventListener("mousemove", (e) => {
             xTo(e.clientX);
@@ -124,3 +124,4 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => ScrollTrigger.refresh(), 500);
     });
 });
+

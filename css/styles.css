@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+ï»¿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
 
 :root {
   /* Color Palette - Dark Theme (Default) */
@@ -2537,7 +2537,7 @@ body, html {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255,255,255,0.2);
 }
-/* FIX EDGE STICKING (DÍNH VI?N) IN TABS */
+/* FIX EDGE STICKING (Dï¿½NH VI?N) IN TABS */
 .workspace-topbar {
     padding: clamp(1rem, 3vw, 2rem) clamp(1.5rem, 5vw, 4rem) !important;
     display: flex;
@@ -2750,8 +2750,7 @@ a, button, input, textarea, select, .word-card, .workspace-card, .search-result-
     position: fixed;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 12px; height: 12px;
     background: var(--primary);
     border-radius: 50%;
     pointer-events: none;
@@ -2761,7 +2760,7 @@ a, button, input, textarea, select, .word-card, .workspace-card, .search-result-
     transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
                 height 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
                 background-color 0.3s ease;
-    box-shadow: 0 0 20px 4px var(--primary-glow);
+    box-shadow: 0 0 10px 2px var(--primary-glow);
 }
 
 [data-theme="light"] .custom-cursor {
@@ -2770,11 +2769,10 @@ a, button, input, textarea, select, .word-card, .workspace-card, .search-result-
 }
 
 .custom-cursor.active {
-    width: 50px;
-    height: 50px;
+    width: 32px; height: 32px;
     background: var(--accent);
     mix-blend-mode: screen;
-    box-shadow: 0 0 30px 5px rgba(34, 211, 238, 0.5);
+    box-shadow: 0 0 15px 3px rgba(34, 211, 238, 0.4);
 }
 
 [data-theme="light"] .custom-cursor.active {
@@ -2784,3 +2782,4 @@ a, button, input, textarea, select, .word-card, .workspace-card, .search-result-
 .custom-cursor.hidden {
     opacity: 0;
 }
+
