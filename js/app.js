@@ -43,7 +43,7 @@ class VocabApp {
   // ---- Initializer ----
   init() {
     if (!localStorage.getItem('vmp_force_reload_v2')) {
-        localStorage.removeItem('vocabmaster_words_v4');
+        localStorage.removeItem('vocabmaster_words_v5');
         localStorage.setItem('vmp_force_reload_v2', 'true');
     }
     this.loadData();
@@ -92,7 +92,7 @@ class VocabApp {
   // ---- Storage Management ----
   loadData() {
     try {
-      const saved = localStorage.getItem('vocabmaster_words_v4');
+      const saved = localStorage.getItem('vocabmaster_words_v5');
       if (saved) {
         let list = JSON.parse(saved);
         if (list.length < DEFAULT_VOCABULARY.length) {
@@ -118,7 +118,7 @@ class VocabApp {
 
   saveData() {
     try {
-      localStorage.setItem('vocabmaster_words_v4', JSON.stringify(this.words));
+      localStorage.setItem('vocabmaster_words_v5', JSON.stringify(this.words));
       this.updateSidebarBadges();
     } catch (e) {
       this.showToast('Lỗi lưu trữ dữ liệu vào bộ nhớ hệ thống!', 'error');
@@ -1942,5 +1942,6 @@ class VocabApp {
 
 // Global App Instance
 const app = new VocabApp();
+
 
 
