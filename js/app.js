@@ -43,7 +43,7 @@ class VocabApp {
   // ---- Initializer ----
   init() {
     if (!localStorage.getItem('vmp_force_reload_v2')) {
-        localStorage.removeItem('vocabmaster_words_v5');
+        localStorage.removeItem('vocabmaster_words_v6');
         localStorage.setItem('vmp_force_reload_v2', 'true');
     }
     this.loadData();
@@ -92,7 +92,7 @@ class VocabApp {
   // ---- Storage Management ----
   loadData() {
     try {
-      const saved = localStorage.getItem('vocabmaster_words_v5');
+      const saved = localStorage.getItem('vocabmaster_words_v6');
       if (saved) {
         let list = JSON.parse(saved);
         if (list.length < DEFAULT_VOCABULARY.length) {
@@ -118,7 +118,7 @@ class VocabApp {
 
   saveData() {
     try {
-      localStorage.setItem('vocabmaster_words_v5', JSON.stringify(this.words));
+      localStorage.setItem('vocabmaster_words_v6', JSON.stringify(this.words));
       this.updateSidebarBadges();
     } catch (e) {
       this.showToast('Lỗi lưu trữ dữ liệu vào bộ nhớ hệ thống!', 'error');
@@ -387,28 +387,29 @@ class VocabApp {
 
   closeWorkspace() {
     const currentLayer = document.getElementById(`layer-${this.currentWorkspace}`);
-    if (currentLayer) {
-      currentLayer.classList.remove('active');
+    if (currentLayer) currentLayer.classList.remove('active');
+
+    let prevWorkspace = 'dashboard';
+    if (this.workspaceHistory.length > 0) {
+      prevWorkspace = this.workspaceHistory.pop();
     }
 
-    // Go back to dashboard
-    const dashboardLayer = document.getElementById('layer-dashboard');
-    if (dashboardLayer) {
-      dashboardLayer.classList.add('active');
+    if (prevWorkspace === 'dashboard') {
+      const dashboardLayer = document.getElementById('layer-dashboard');
+      if (dashboardLayer) dashboardLayer.classList.add('active');
+      this.currentWorkspace = 'dashboard';
+      window.location.hash = 'dashboard';
+      this.renderDashboard();
+    } else {
+      this.currentWorkspace = prevWorkspace;
+      window.location.hash = prevWorkspace;
+      const targetLayer = document.getElementById(`layer-${prevWorkspace}`);
+      if (targetLayer) {
+        requestAnimationFrame(() => targetLayer.classList.add('active'));
+      }
+      this.renderPage(prevWorkspace);
     }
-
-    this.currentWorkspace = 'dashboard';
-    window.location.hash = 'dashboard';
-    this.workspaceHistory = [];
-
-    // Refresh dashboard data
-    this.renderDashboard();
-
-    // Update Three.js scene
-    if (window.threeBg) {
-      window.threeBg.setScene('dashboard');
-    }
-
+    
     this.playSound('click');
   }
 
@@ -1945,6 +1946,8 @@ class VocabApp {
 
 // Global App Instance
 const app = new VocabApp();
+
+
 
 
 

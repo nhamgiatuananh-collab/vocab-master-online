@@ -10,7 +10,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'abandon' is commonly used in both writing and speaking."
+      "They had to abandon their car because of the heavy snow."
     ],
     "learned": true,
     "favorite": false,
@@ -27,7 +27,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'ability' is commonly used in both writing and speaking."
+      "She has an amazing ability to learn languages quickly."
     ],
     "learned": false,
     "favorite": false,
@@ -44,7 +44,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'absence' is commonly used in both writing and speaking."
+      "His prolonged absence from school affected his grades."
     ],
     "learned": true,
     "favorite": true,
@@ -61,7 +61,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'absolute' is commonly used in both writing and speaking."
+      "I have absolute confidence in her abilities."
     ],
     "learned": true,
     "favorite": false,
@@ -78,7 +78,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'academic' is commonly used in both writing and speaking."
+      "He is very academic and enjoys studying complex theories."
     ],
     "learned": false,
     "favorite": false,
@@ -95,7 +95,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'acceptable' is commonly used in both writing and speaking."
+      "This level of noise is not acceptable in a library."
     ],
     "learned": true,
     "favorite": false,
@@ -112,7 +112,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'access' is commonly used in both writing and speaking."
+      "Students have free access to the online database."
     ],
     "learned": false,
     "favorite": false,
@@ -129,7 +129,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'accident' is commonly used in both writing and speaking."
+      "He was involved in a serious car accident last night."
     ],
     "learned": false,
     "favorite": false,
@@ -146,7 +146,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'accommodate' is commonly used in both writing and speaking."
+      "The hotel can accommodate up to 500 guests."
     ],
     "learned": false,
     "favorite": false,
@@ -163,7 +163,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'accompany' is commonly used in both writing and speaking."
+      "Children must be accompanied by an adult."
     ],
     "learned": false,
     "favorite": false,
@@ -180,7 +180,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'accomplish' is commonly used in both writing and speaking."
+      "We have a lot to accomplish before the deadline."
     ],
     "learned": false,
     "favorite": false,
@@ -197,7 +197,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'account' is commonly used in both writing and speaking."
+      "She deposited the money into her bank account."
     ],
     "learned": true,
     "favorite": false,
@@ -214,7 +214,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'accurate' is commonly used in both writing and speaking."
+      "The weather forecast is not always accurate."
     ],
     "learned": false,
     "favorite": false,
@@ -231,7 +231,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'accuse' is commonly used in both writing and speaking."
+      "He was accused of stealing the money."
     ],
     "learned": false,
     "favorite": true,
@@ -248,7 +248,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'achieve' is commonly used in both writing and speaking."
+      "You need to work hard to achieve your goals."
     ],
     "learned": false,
     "favorite": false,
@@ -265,7 +265,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'acknowledge' is commonly used in both writing and speaking."
+      "She refused to acknowledge her mistakes."
     ],
     "learned": false,
     "favorite": false,
@@ -282,7 +282,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'acquire' is commonly used in both writing and speaking."
+      "He spent years acquiring the skills needed for the job."
     ],
     "learned": false,
     "favorite": true,
@@ -299,7 +299,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'adapt' is commonly used in both writing and speaking."
+      "Species must adapt to their environment to survive."
     ],
     "learned": false,
     "favorite": false,
@@ -316,7 +316,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'adequate' is commonly used in both writing and speaking."
+      "Make sure you drink an adequate amount of water."
     ],
     "learned": false,
     "favorite": false,
@@ -333,7 +333,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'adjust' is commonly used in both writing and speaking."
+      "It took him a while to adjust to the new climate."
     ],
     "learned": true,
     "favorite": true,
@@ -350,7 +350,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'administration' is commonly used in both writing and speaking."
+      "The university administration announced a new policy."
     ],
     "learned": false,
     "favorite": true,
@@ -367,7 +367,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'adopt' is commonly used in both writing and speaking."
+      "They decided to adopt a child from the orphanage."
     ],
     "learned": false,
     "favorite": false,
@@ -384,7 +384,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'advantage' is commonly used in both writing and speaking."
+      "Being tall gives you an advantage in basketball."
     ],
     "learned": false,
     "favorite": false,
@@ -401,7 +401,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'advocate' is commonly used in both writing and speaking."
+      "He is a strong advocate for environmental protection."
     ],
     "learned": false,
     "favorite": true,
@@ -418,7 +418,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'affect' is commonly used in both writing and speaking."
+      "The lack of sleep will affect your performance."
     ],
     "learned": false,
     "favorite": false,
@@ -435,7 +435,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'agreement' is commonly used in both writing and speaking."
+      "Both parties finally reached an agreement."
     ],
     "learned": false,
     "favorite": false,
@@ -452,7 +452,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'agriculture' is commonly used in both writing and speaking."
+      "A large percentage of the population works in agriculture."
     ],
     "learned": true,
     "favorite": false,
@@ -469,7 +469,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'allocate' is commonly used in both writing and speaking."
+      "The government will allocate more funds to education."
     ],
     "learned": false,
     "favorite": false,
@@ -486,7 +486,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'alter' is commonly used in both writing and speaking."
+      "We had to alter our plans due to the bad weather."
     ],
     "learned": false,
     "favorite": true,
@@ -503,7 +503,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'alternative' is commonly used in both writing and speaking."
+      "We need to find alternative sources of energy."
     ],
     "learned": true,
     "favorite": false,
@@ -520,7 +520,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'ambiguous' is commonly used in both writing and speaking."
+      "The ending of the movie was somewhat ambiguous."
     ],
     "learned": true,
     "favorite": false,
@@ -537,7 +537,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'amend' is commonly used in both writing and speaking."
+      "The constitution was amended to include the new law."
     ],
     "learned": true,
     "favorite": false,
@@ -554,7 +554,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'analysis' is commonly used in both writing and speaking."
+      "They conducted a detailed analysis of the data."
     ],
     "learned": false,
     "favorite": false,
@@ -571,7 +571,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'anticipate' is commonly used in both writing and speaking."
+      "We don't anticipate any major problems during construction."
     ],
     "learned": true,
     "favorite": true,
@@ -588,7 +588,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'apparent' is commonly used in both writing and speaking."
+      "It became apparent that he was lying."
     ],
     "learned": true,
     "favorite": false,
@@ -605,7 +605,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'approach' is commonly used in both writing and speaking."
+      "We need a new approach to solving this problem."
     ],
     "learned": true,
     "favorite": false,
@@ -622,7 +622,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'appropriate' is commonly used in both writing and speaking."
+      "Is this dress appropriate for a formal dinner?"
     ],
     "learned": false,
     "favorite": false,
@@ -639,7 +639,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'approximate' is commonly used in both writing and speaking."
+      "The approximate cost of the repair is $500."
     ],
     "learned": true,
     "favorite": false,
@@ -656,7 +656,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'arbitrary' is commonly used in both writing and speaking."
+      "The rules seem completely arbitrary and unfair."
     ],
     "learned": false,
     "favorite": false,
@@ -673,7 +673,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'assess' is commonly used in both writing and speaking."
+      "Exams are used to assess the students' progress."
     ],
     "learned": false,
     "favorite": false,
@@ -690,7 +690,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'assign' is commonly used in both writing and speaking."
+      "The teacher assigned a lot of homework for the weekend."
     ],
     "learned": true,
     "favorite": true,
@@ -707,7 +707,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'assume' is commonly used in both writing and speaking."
+      "I assume you are coming to the party tonight."
     ],
     "learned": false,
     "favorite": false,
@@ -724,7 +724,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'assure' is commonly used in both writing and speaking."
+      "I assure you that the project will be finished on time."
     ],
     "learned": false,
     "favorite": false,
@@ -741,7 +741,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'attach' is commonly used in both writing and speaking."
+      "Please attach your resume to the application email."
     ],
     "learned": false,
     "favorite": false,
@@ -758,7 +758,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'attitude' is commonly used in both writing and speaking."
+      "He has a very positive attitude towards his work."
     ],
     "learned": true,
     "favorite": true,
@@ -775,7 +775,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'attribute' is commonly used in both writing and speaking."
+      "He attributes his success to hard work and dedication."
     ],
     "learned": false,
     "favorite": true,
@@ -792,7 +792,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'author' is commonly used in both writing and speaking."
+      "She is a well-known author of children's books."
     ],
     "learned": false,
     "favorite": true,
@@ -809,7 +809,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'authority' is commonly used in both writing and speaking."
+      "The police have the authority to arrest criminals."
     ],
     "learned": false,
     "favorite": false,
@@ -826,7 +826,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'available' is commonly used in both writing and speaking."
+      "This limited edition item is no longer available."
     ],
     "learned": true,
     "favorite": false,
@@ -843,7 +843,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'aware' is commonly used in both writing and speaking."
+      "Are you aware of the risks involved?"
     ],
     "learned": false,
     "favorite": false,
@@ -860,7 +860,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'benefit' is commonly used in both writing and speaking."
+      "Regular exercise has many health benefits."
     ],
     "learned": false,
     "favorite": false,
@@ -877,7 +877,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'bias' is commonly used in both writing and speaking."
+      "The news report showed a strong political bias."
     ],
     "learned": true,
     "favorite": false,
@@ -894,7 +894,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'brief' is commonly used in both writing and speaking."
+      "Let's have a brief meeting to discuss the project."
     ],
     "learned": false,
     "favorite": false,
@@ -911,7 +911,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'capable' is commonly used in both writing and speaking."
+      "She is capable of achieving great things."
     ],
     "learned": false,
     "favorite": false,
@@ -928,7 +928,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'capacity' is commonly used in both writing and speaking."
+      "The stadium has a seating capacity of 50,000."
     ],
     "learned": false,
     "favorite": false,
@@ -945,7 +945,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'category' is commonly used in both writing and speaking."
+      "This book falls into the category of science fiction."
     ],
     "learned": false,
     "favorite": false,
@@ -962,7 +962,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'cease' is commonly used in both writing and speaking."
+      "The factory will cease operations next month."
     ],
     "learned": true,
     "favorite": true,
@@ -979,7 +979,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'challenge' is commonly used in both writing and speaking."
+      "Learning a new language is a great challenge."
     ],
     "learned": false,
     "favorite": false,
@@ -996,7 +996,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'channel' is commonly used in both writing and speaking."
+      "They communicated through an encrypted channel."
     ],
     "learned": false,
     "favorite": false,
@@ -1013,7 +1013,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'chapter' is commonly used in both writing and speaking."
+      "I just finished reading the final chapter of the book."
     ],
     "learned": false,
     "favorite": false,
@@ -1030,7 +1030,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'chart' is commonly used in both writing and speaking."
+      "The chart shows the company's growth over the past year."
     ],
     "learned": false,
     "favorite": false,
@@ -1047,7 +1047,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'chemical' is commonly used in both writing and speaking."
+      "Avoid using harsh cleaning chemicals on this surface."
     ],
     "learned": true,
     "favorite": true,
@@ -1064,7 +1064,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'circumstance' is commonly used in both writing and speaking."
+      "Under no circumstance should you open this door."
     ],
     "learned": true,
     "favorite": false,
@@ -1081,7 +1081,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'cite' is commonly used in both writing and speaking."
+      "The researcher cited several studies in her paper."
     ],
     "learned": false,
     "favorite": false,
@@ -1098,7 +1098,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'civil' is commonly used in both writing and speaking."
+      "He is involved in a civil lawsuit over the property."
     ],
     "learned": false,
     "favorite": false,
@@ -1115,7 +1115,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'clarify' is commonly used in both writing and speaking."
+      "Could you please clarify your main point?"
     ],
     "learned": true,
     "favorite": false,
@@ -1132,7 +1132,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'classic' is commonly used in both writing and speaking."
+      "This novel is a classic example of gothic literature."
     ],
     "learned": true,
     "favorite": false,
@@ -1149,7 +1149,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'clause' is commonly used in both writing and speaking."
+      "There is a penalty clause in the contract."
     ],
     "learned": true,
     "favorite": true,
@@ -1166,7 +1166,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'code' is commonly used in both writing and speaking."
+      "The programmer wrote the code for the new application."
     ],
     "learned": false,
     "favorite": false,
@@ -1183,7 +1183,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'coherent' is commonly used in both writing and speaking."
+      "She gave a very coherent explanation of the theory."
     ],
     "learned": false,
     "favorite": false,
@@ -1200,7 +1200,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'coincide' is commonly used in both writing and speaking."
+      "Her arrival coincided with the start of the rain."
     ],
     "learned": false,
     "favorite": false,
@@ -1217,7 +1217,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'collapse' is commonly used in both writing and speaking."
+      "The old building collapsed during the earthquake."
     ],
     "learned": false,
     "favorite": true,
@@ -1234,7 +1234,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'colleague' is commonly used in both writing and speaking."
+      "I am having lunch with a colleague today."
     ],
     "learned": false,
     "favorite": true,
@@ -1251,7 +1251,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'commence' is commonly used in both writing and speaking."
+      "The ceremony will commence at exactly 9 AM."
     ],
     "learned": false,
     "favorite": false,
@@ -1268,7 +1268,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'comment' is commonly used in both writing and speaking."
+      "He made a rude comment about her appearance."
     ],
     "learned": true,
     "favorite": false,
@@ -1285,7 +1285,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'commission' is commonly used in both writing and speaking."
+      "She gets a 10% commission on every sale she makes."
     ],
     "learned": false,
     "favorite": false,
@@ -1302,7 +1302,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'commit' is commonly used in both writing and speaking."
+      "He decided to commit himself fully to the project."
     ],
     "learned": false,
     "favorite": false,
@@ -1319,7 +1319,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'commodity' is commonly used in both writing and speaking."
+      "Gold is a highly valuable commodity."
     ],
     "learned": true,
     "favorite": false,
@@ -1336,7 +1336,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'communicate' is commonly used in both writing and speaking."
+      "Dolphins use sound to communicate with each other."
     ],
     "learned": false,
     "favorite": false,
@@ -1353,7 +1353,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "A2",
     "level": "beginner",
     "examples": [
-      "The word 'community' is commonly used in both writing and speaking."
+      "There is a strong sense of community in our neighborhood."
     ],
     "learned": false,
     "favorite": false,
@@ -1370,7 +1370,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'compatible' is commonly used in both writing and speaking."
+      "This software is not compatible with older operating systems."
     ],
     "learned": false,
     "favorite": true,
@@ -1387,7 +1387,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'compensate' is commonly used in both writing and speaking."
+      "Nothing can compensate for the loss of a loved one."
     ],
     "learned": false,
     "favorite": false,
@@ -1404,7 +1404,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'compile' is commonly used in both writing and speaking."
+      "They are compiling a list of potential candidates."
     ],
     "learned": false,
     "favorite": false,
@@ -1421,7 +1421,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'complement' is commonly used in both writing and speaking."
+      "The wine perfectly complements the flavor of the dish."
     ],
     "learned": false,
     "favorite": false,
@@ -1438,7 +1438,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'complex' is commonly used in both writing and speaking."
+      "The human brain is a highly complex organ."
     ],
     "learned": false,
     "favorite": false,
@@ -1455,7 +1455,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'component' is commonly used in both writing and speaking."
+      "Trust is a vital component of any relationship."
     ],
     "learned": false,
     "favorite": false,
@@ -1472,7 +1472,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'compound' is commonly used in both writing and speaking."
+      "Water is a chemical compound consisting of hydrogen and oxygen."
     ],
     "learned": false,
     "favorite": false,
@@ -1489,7 +1489,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'comprehensive' is commonly used in both writing and speaking."
+      "The school offers a comprehensive training program."
     ],
     "learned": false,
     "favorite": false,
@@ -1506,7 +1506,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'comprise' is commonly used in both writing and speaking."
+      "The committee is comprised of five members."
     ],
     "learned": true,
     "favorite": false,
@@ -1523,7 +1523,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'compute' is commonly used in both writing and speaking."
+      "The computer can compute large numbers in milliseconds."
     ],
     "learned": true,
     "favorite": true,
@@ -1540,7 +1540,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'conceive' is commonly used in both writing and speaking."
+      "It is hard to conceive of a world without the internet."
     ],
     "learned": false,
     "favorite": false,
@@ -1557,7 +1557,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'concentrate' is commonly used in both writing and speaking."
+      "I can't concentrate with all this noise."
     ],
     "learned": true,
     "favorite": false,
@@ -1574,7 +1574,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'concept' is commonly used in both writing and speaking."
+      "The concept of infinity is difficult to understand."
     ],
     "learned": false,
     "favorite": true,
@@ -1591,7 +1591,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'conclude' is commonly used in both writing and speaking."
+      "The report concluded that the project was a failure."
     ],
     "learned": true,
     "favorite": false,
@@ -1608,7 +1608,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'concurrent' is commonly used in both writing and speaking."
+      "The criminal was given three concurrent life sentences."
     ],
     "learned": false,
     "favorite": false,
@@ -1625,7 +1625,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'conduct' is commonly used in both writing and speaking."
+      "The scientists will conduct an experiment tomorrow."
     ],
     "learned": false,
     "favorite": false,
@@ -1642,7 +1642,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'confer' is commonly used in both writing and speaking."
+      "I need to confer with my lawyer before signing."
     ],
     "learned": false,
     "favorite": false,
@@ -1659,7 +1659,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "C1",
     "level": "advanced",
     "examples": [
-      "The word 'confine' is commonly used in both writing and speaking."
+      "Please confine your remarks to the topic at hand."
     ],
     "learned": false,
     "favorite": false,
@@ -1676,7 +1676,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B1",
     "level": "intermediate",
     "examples": [
-      "The word 'confirm' is commonly used in both writing and speaking."
+      "Please confirm your flight reservation 24 hours in advance."
     ],
     "learned": false,
     "favorite": false,
@@ -1693,7 +1693,7 @@ const DEFAULT_VOCABULARY = [
     "cefr": "B2",
     "level": "intermediate",
     "examples": [
-      "The word 'conflict' is commonly used in both writing and speaking."
+      "There was a conflict of interest between the two parties."
     ],
     "learned": false,
     "favorite": false,
