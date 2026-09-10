@@ -1318,7 +1318,8 @@ class VocabApp {
     this.quizAnswered = false;
 
     const shuffled = [...this.words].sort(() => Math.random() - 0.5);
-    this.quizWords = shuffled.slice(0, Math.min(10, this.words.length));
+    const maxWords = mode === 'matching' ? 5 : 10;
+    this.quizWords = shuffled.slice(0, Math.min(maxWords, this.words.length));
 
     document.getElementById('quizSetup').style.display = 'none';
     document.getElementById('quizArea').style.display = 'block';
@@ -1462,9 +1463,11 @@ class VocabApp {
   renderTyping(word) {
     const wordChars = word.word.split('');
     const hint = wordChars.map((c, i) => {
-      if (i === 0 || i === wordChars.length - 1 || c === '-' || c === ' ') return c;
-      return '_';
-    }).join(' ');
+        if (c === '-' || c === ' ') return c;
+        if (wordChars.length <= 3) return '_';
+        if (i === 0 || i === wordChars.length - 1) return c;
+        return '_';
+      }).join(' ');
 
     document.getElementById('quizContent').innerHTML = `
       <div class="typing-wrap">
@@ -1942,6 +1945,8 @@ class VocabApp {
 
 // Global App Instance
 const app = new VocabApp();
+
+
 
 
 
